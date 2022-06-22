@@ -7,12 +7,17 @@
 
 header {
   padding: 20px 35px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
 }
 
 header h1 {
   font-family: "zapfino";
   font-weight: bold;
-  font-size: 36px;
+  font-size: 30px;
   margin: 0;
   display: inline;
 }
@@ -24,15 +29,25 @@ header a {
 header nav {
   float: right;
   margin: 7px 0;
+  font-weight: bolder;
 }
 
-header nav ul li {
-  display: inline;
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 45px;
 }
+
+/* header nav ul li {
+  display: inline;
+} */
 
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10px 45px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 30px;
   color: #30475e;
 }

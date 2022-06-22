@@ -8,10 +8,10 @@ function Nav() {
         <h1> JCV </h1>
         <nav>
             <ul>
-                <li> <a href="#what-we-do">asdasd</a> </li>
-                <li> <a href="#what-you-do">ddds</a> </li>
-                <li> <a href="#your-trainers">Yours</a> </li>
-                <li> <a href="#reach-out">Rt</a> </li>
+                <li> <a href="/">About</a> </li>
+                <li> <a href="/">Projects</a> </li>
+                <li> <a href="/">Contact</a> </li>
+                <li> <a href="/">Resume</a> </li>
             </ul>
         </nav>
     </header>
