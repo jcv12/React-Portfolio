@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* NAV BAR */
 header {
   padding: 20px 35px;
   justify-content: space-between;
@@ -47,3 +48,43 @@ header nav ul li a {
   font-size: 30px;
   color: #30475e;
 }
+
+/* End of NAV BAR */
+
+/* Typing Animation in ABOUT */
+
+.line {
+  border-right: 2px solid rgba(0, 0, 0, 0.75);
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 301px;
+}
+
+.typing-animation {
+  animation: blinkCursor 650ms steps(45) infinite normal,
+    typing 4s steps(45) 1s normal both;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 14em;
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+    border-right-color: rgba(0, 0, 0, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+/* End of Typing Animation in ABOUT */
