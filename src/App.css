@@ -305,3 +305,39 @@ background-color: #b0d7e7;
   }
 
   /* END for Projects */
+
+  /* contact */
+  footer {
+    background-color: #e5eff3;
+  }
+
+  footer nav{
+    float: inline;
+    margin: 70px 0;
+  }
+  
+  footer nav ul li{
+    display: inline-flex;
+  }
+  
+  footer nav ul li a{
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 30px;
+    text-decoration: none;
+    color: #30475e;
+  }
+  
+  .contact {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    background-color: #e5eff3;
+  }
+  .contact1 {
+      text-align: center;
+      margin-top: 0.3rem;
+      margin-left: 0.1rem;
+  }
+
+  /* END for Contact */

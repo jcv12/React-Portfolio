@@ -4,7 +4,7 @@ import React from 'react';
 function Projects() {
     return(
         <section class="experience" id="work">
-        <h2>Experience</h2>
+        <h2>My Recent Projects</h2>
         <div class="row mt-5">
             <div class="col">
               <div class="card">
